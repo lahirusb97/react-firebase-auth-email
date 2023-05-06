@@ -8,7 +8,7 @@ export default function SingIn() {
   //get user Inputs
   const [email, setEmail] = useState("");
   const [Password, setPassword] = useState("");
-<<<<<<< HEAD
+
   const handleLogin = () => {
     const auth = getAuth();
     createUserWithEmailAndPassword(auth, email, Password)
@@ -43,9 +43,6 @@ export default function SingIn() {
         // ..
       });
   };
-=======
- const handleLogin = () => {};
->>>>>>> 7a04bf26c99f0cb5a7e88ef010ba373f874c1d78
   return (
     <>
       <h1 className="font-bold text-4xl m-4 text-white">Sing In</h1>

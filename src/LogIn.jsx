@@ -10,7 +10,6 @@ export default function LogIn() {
   const [email, setEmail] = useState("");
   const [Password, setPassword] = useState("");
   const handleLogIn = () => {
-<<<<<<< HEAD
     const auth = getAuth();
     signInWithEmailAndPassword(auth, email, Password)
       .then((userCredential) => {
@@ -73,9 +72,6 @@ export default function LogIn() {
           theme: "light",
         });
       });
-=======
-   
->>>>>>> 7a04bf26c99f0cb5a7e88ef010ba373f874c1d78
   };
   return (
     <>
